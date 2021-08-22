@@ -24,6 +24,19 @@ run_analysis.md or run_analysis.R contain details on dataset creation.
 The first few observations of the TIDY dataset are prented below. The structure of the data is also shown:
 
 ```r 
-TIDY <- read.csv("TIDY_HumanActivity.csv", header = FALSE) 
+tidy <- read.csv("tidy_data.csv", header = FALSE) 
 head(TIDY, n = 30) 
+```
+```r
+  subject.number activity Domain    Instrument Acceleration Jerk Magnitude Statistic Axis count      average
+1               1   LAYING   Time Accelerometer         Body <NA>      <NA>      Mean    X    50  0.221598244
+2               1   LAYING   Time Accelerometer         Body <NA>      <NA>      Mean    Y    50 -0.040513953
+3               1   LAYING   Time Accelerometer         Body <NA>      <NA>      Mean    Z    50 -0.113203554
+4               1   LAYING   Time Accelerometer         Body <NA>      <NA>        SD    X    50 -0.928056469
+5               1   LAYING   Time Accelerometer         Body <NA>      <NA>        SD    Y    50 -0.836827406
+6               1   LAYING   Time Accelerometer         Body <NA>      <NA>        SD    Z    50 -0.826061402
+7               1   LAYING   Time Accelerometer         Body <NA> Magnitude      Mean <NA>    50 -0.841929152
+8               1   LAYING   Time Accelerometer         Body <NA> Magnitude        SD <NA>    50 -0.795144864
+9               1   LAYING   Time Accelerometer         Body Jerk      <NA>      Mean    X    50  0.081086534
+10              1   LAYING   Time Accelerometer         Body Jerk      <NA>      Mean    Y    50  0.003838204
 ```
