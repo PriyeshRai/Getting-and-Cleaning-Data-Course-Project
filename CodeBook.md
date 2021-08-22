@@ -22,6 +22,5 @@ run_analysis.md or run_analysis.R contain details on dataset creation.
 ## TIDY data
 The first few observations of the TIDY dataset are prented below. The structure of the data is also shown:
 
-`<TIDY <- read.csv("TIDY_HumanActivity.csv", header = FALSE)
-head(TIDY, n = 30)
->`
+` TIDY <- read.csv("TIDY_HumanActivity.csv", header = FALSE) `
+` head(TIDY, n = 30) `
