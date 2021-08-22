@@ -1,13 +1,13 @@
-Title
-Codebook
-Variables in the tidy dataset
+# Codebook
+## Variables in the tidy dataset
 The cleaned dataset contains 11,881 observations of 11 variables and is saved in both text (TIDY_HumanActivity.txt) and csv (TIDY_HumanActivity.csv) formats.
 
 run_analysis.md or run_analysis.R contain details on dataset creation.
 
-Variable list and descriptions
-Variable name	Description
-subject	Subject ID (1,2, ..., 30 - 30 subjects in total)
+## Variable list and descriptions
+| Variable name	| Description |
+| ------------- | ----------- |
+| subject	| Subject ID (1,2, ..., 30 - 30 subjects in total) |
 activity	Activity name (e.g. WALKING, LAYING, etc. 6 activities in total)
 Domain	Time domain or Frequency domain signal (Time or Freq)
 Instrument	Instrument that measured the signal (Accelerometer or Gyroscope)
