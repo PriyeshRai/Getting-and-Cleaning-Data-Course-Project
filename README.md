@@ -1,4 +1,4 @@
-<h1, align="center"> Getting-and-Cleaning-Data-Course-Project </h1>
+<h1 align="center"> Getting-and-Cleaning-Data-Course-Project </h1>
 
 ## Introduction
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. 
