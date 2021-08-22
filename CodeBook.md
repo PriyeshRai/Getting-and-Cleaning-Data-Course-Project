@@ -1,4 +1,4 @@
-# Codebook
+<h1 align="center">Codebook</h1>
 ## Variables in the tidy dataset
 The cleaned dataset contains 11,881 observations of 11 variables and is saved in both text (TIDY_HumanActivity.txt) and csv (TIDY_HumanActivity.csv) formats.
 
@@ -22,5 +22,5 @@ run_analysis.md or run_analysis.R contain details on dataset creation.
 ## TIDY data
 The first few observations of the TIDY dataset are prented below. The structure of the data is also shown:
 
-` TIDY <- read.csv("TIDY_HumanActivity.csv", header = FALSE) `
-` head(TIDY, n = 30) `
+```r TIDY <- read.csv("TIDY_HumanActivity.csv", header = FALSE) 
+head(TIDY, n = 30) ```
