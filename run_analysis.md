@@ -5,7 +5,7 @@ This is the markdown version of the run_analysis.R script. It's here for conveni
 The dataset can been downloaded by running downloadData.R, which downloads and stores the data locally in the current directory's UCI HAR Dataset folder:
 
 ```r
-if (!file.exists("UCI HAR Dataset")) downloadData()
+if (!file.exists("UCI HAR Dataset")) download_data()
 We'll be using the following libraries to process the data. Using data.table instead of data.frames speeds up much of the processing of this large dataset:
 ```
 ```r
